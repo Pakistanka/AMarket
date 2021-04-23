@@ -196,9 +196,12 @@ body {
 
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 
     position: relative;
+}
+.info__item p {
+    position: absolute;
+    z-index: 3;
 }
 .info__item--transparent {
     background-color: transparent;
